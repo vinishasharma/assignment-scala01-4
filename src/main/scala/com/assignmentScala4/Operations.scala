@@ -22,7 +22,7 @@ class Operations {
     }
   }
 
-  def operateList(list: List[Int], operation: String, f:(Int,Int,String) => Int) = {
+  def operateList(list: List[Int], operation: String, f:(Int,Int,String) => Int): Int  = {
 
     def operateHelper(list: List[Int], result: Int): Int = {
       list match {
